@@ -1,0 +1,10 @@
+body {
+  background-image: url('./cinema_images/login.jpg');
+  background-size: cover;
+  background-position: center;
+  width: 100vw;
+  height: 100vh;
+  margin: 0;
+  overflow: hidden;
+}
+

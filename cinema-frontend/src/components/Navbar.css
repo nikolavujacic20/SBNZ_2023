@@ -1,0 +1,27 @@
+.navbar {
+  background-color: #f8f8f8;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar-links {
+  display: flex;
+}
+
+.navbar-link {
+  color: #000;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 18px;
+  margin-right: 10px;
+}
+
+.navbar-link:hover {
+  text-decoration: underline;
+}
+
+.navbar-logout {
+  margin-left: auto;
+}
