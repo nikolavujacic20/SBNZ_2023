@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kmodule xmlns="http://jboss.org/kie/6.0.0/kmodule">
+	<kbase name="rules" packages="rules">
+        <ksession name="tickets-session"/>
+    </kbase>
+    <kbase name="insurance-rules" packages="insurance-rules">
+        <ksession name="insurance-session"/>
+    </kbase>
+    <kbase name="cepKbase" eventProcessingMode="stream" packages="cep">
+        <ksession name="cepSession"/>
+    </kbase>
+    <kbase name="cepConfigKbase" eventProcessingMode="stream" packages="cep">
+        <ksession name="cepConfigKsessionPseudoClock" clockType="pseudo"/>
+        <ksession name="cepConfigKsessionRealtimeClock" clockType="realtime"/>
+    </kbase>
+</kmodule>

@@ -1,0 +1,10 @@
+
+package com.main
+
+import com.project.cinema.model.*;
+
+
+
+query "findMovieByName" (String conatainsName)
+    movie: Movie(name.toLowerCase().contains(conatainsName.toLowerCase()))
+end;
